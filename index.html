@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Launch Your Course Platform in 7 Days — Free Guide</title>
+  <meta name="description" content="A free step-by-step guide for developers and creators who want to launch fast—without getting stuck on setup." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav aria-label="Site navigation">
+    <a href="#hero" class="nav-logo" aria-label="Course Platform Guide home">
+      <span class="nav-logo-dot" aria-hidden="true"></span>
+      <span class="nav-logo-text">CourseGuide</span>
+    </a>
+    <a href="#final-cta" class="nav-cta">Get the Free Guide</a>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="hero">
+    <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="blob blob-2" aria-hidden="true"></div>
+
+    <div class="container hero-inner">
+      <div class="tag">Free Developer Guide</div>
+
+      <h1>
+        Launch Your Course Platform<br />
+        in 7 Days<br />
+        <em>Without Rebuilding Auth &amp; Payments</em>
+      </h1>
+
+      <p class="hero-sub">
+        A free step-by-step guide for developers and creators who want to launch fast—without getting stuck on setup.
+      </p>
+
+      <form class="email-form" id="hero-form" novalidate aria-label="Get the free guide">
+        <label for="hero-email" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Your email address</label>
+        <input
+          type="email"
+          id="hero-email"
+          name="email"
+          placeholder="Enter your email"
+          autocomplete="email"
+          required
+          aria-required="true"
+          aria-describedby="hero-form-note"
+        />
+        <button type="submit" class="btn-primary btn-pulse" id="hero-btn">
+          Get the Free Guide
+        </button>
+      </form>
+      <div class="success-msg" id="hero-success" role="alert" aria-live="polite">
+        <strong>You're in!</strong> Check your inbox — the guide is on its way.
+      </div>
+      <p class="form-note" id="hero-form-note">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        No spam. Just practical steps you can use immediately.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── PROBLEM ─── -->
+  <section id="problem" aria-labelledby="problem-heading">
+    <div class="container">
+      <div class="section-header observe-fade">
+        <div class="tag">The Problem</div>
+        <h2 id="problem-heading">Why Most Course Platforms Never Get Finished</h2>
+        <p>You start with a great idea… but then it falls apart.</p>
+      </div>
+
+      <ul class="problem-list" role="list">
+        <li class="problem-item observe-fade">
+          <svg class="problem-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+          <p><strong>Days lost on authentication setup</strong><br />Setting up auth from scratch eats your time before you write a single line of actual product code.</p>
+        </li>
+        <li class="problem-item observe-fade">
+          <svg class="problem-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+          <p><strong>Payments become confusing</strong><br />Webhooks, subscriptions, trials — it spirals fast and blocks your entire launch.</p>
+        </li>
+        <li class="problem-item observe-fade">
+          <svg class="problem-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+          <p><strong>Project structure gets messy</strong><br />No clear architecture means you're constantly refactoring instead of shipping.</p>
+        </li>
+        <li class="problem-item observe-fade">
+          <svg class="problem-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+          <p><strong>You lose momentum</strong><br />Every blocker chips away at motivation. And the platform never launches.</p>
+        </li>
+      </ul>
+
+      <p class="problem-footer observe-fade">
+        <strong>Sound familiar?</strong> This guide exists to break that cycle.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── SOLUTION ─── -->
+  <section id="solution" aria-labelledby="solution-heading">
+    <div class="container">
+      <div class="section-header observe-fade">
+        <div class="tag">The Solution</div>
+        <h2 id="solution-heading">A Simpler Way to Launch</h2>
+      </div>
+
+      <div class="solution-card observe-fade">
+        <h3>From idea to live course platform — in 7 days.</h3>
+        <p>
+          This free guide gives you a clear, practical 7-day plan with zero fluff and zero overengineering.
+        </p>
+        <p>
+          Just the steps that actually matter, in the order that actually works.
+        </p>
+        <div class="solution-pills">
+          <span class="pill">Straight to the point</span>
+          <span class="pill">No overengineering</span>
+          <span class="pill">Launch-ready</span>
+          <span class="pill">Proven structure</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WHAT YOU'LL LEARN ─── -->
+  <section id="learn" aria-labelledby="learn-heading">
+    <div class="container">
+      <div class="section-header observe-fade">
+        <div class="tag">What You'll Learn</div>
+        <h2 id="learn-heading">Everything You Need to Ship</h2>
+        <p>Practical knowledge with no filler — only what gets you to launch.</p>
+      </div>
+
+      <div class="learn-grid">
+        <div class="learn-item observe-fade">
+          <svg class="learn-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          <p><strong>Structure from day one</strong>How to architect your course platform so it scales without rewrites.</p>
+        </div>
+        <div class="learn-item observe-fade">
+          <svg class="learn-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          <p><strong>Auth without the headache</strong>The simplest, most reliable way to handle user authentication.</p>
+        </div>
+        <div class="learn-item observe-fade">
+          <svg class="learn-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          <p><strong>Payments made simple</strong>Set up payments in hours, not days — no webhook nightmares.</p>
+        </div>
+        <div class="learn-item observe-fade">
+          <svg class="learn-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          <p><strong>Build vs. skip decisions</strong>What to build now, what to skip — and what kills momentum.</p>
+        </div>
+        <div class="learn-item observe-fade">
+          <svg class="learn-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          <p><strong>Launch fast, not perfect</strong>How to ship a working platform even if everything isn't polished yet.</p>
+        </div>
+        <div class="learn-item observe-fade">
+          <svg class="learn-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          <p><strong>The 7-day blueprint</strong>A day-by-day plan that removes all guesswork from the process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WHAT'S INSIDE / TIMELINE ─── -->
+  <section id="inside" aria-labelledby="inside-heading">
+    <div class="container">
+      <div class="section-header observe-fade">
+        <div class="tag">What's Inside</div>
+        <h2 id="inside-heading">Your 7-Day Launch Plan</h2>
+        <p>One focused task per day. No overwhelm. No guessing what comes next.</p>
+      </div>
+
+      <div class="timeline" role="list">
+        <div class="timeline-item observe-fade" role="listitem">
+          <div class="timeline-dot" aria-hidden="true">D1</div>
+          <div class="timeline-content">
+            <h4>Define Your Course Idea</h4>
+            <p>Nail your topic, audience, and core transformation before writing a line of code.</p>
+          </div>
+        </div>
+        <div class="timeline-item observe-fade" role="listitem">
+          <div class="timeline-dot" aria-hidden="true">D2</div>
+          <div class="timeline-content">
+            <h4>Set Up Your Project</h4>
+            <p>Project structure, tooling, and the foundation that won't slow you down later.</p>
+          </div>
+        </div>
+        <div class="timeline-item observe-fade" role="listitem">
+          <div class="timeline-dot" aria-hidden="true">D3</div>
+          <div class="timeline-content">
+            <h4>Authentication</h4>
+            <p>Implement secure, scalable auth the simple way — no reinventing the wheel.</p>
+          </div>
+        </div>
+        <div class="timeline-item observe-fade" role="listitem">
+          <div class="timeline-dot" aria-hidden="true">D4</div>
+          <div class="timeline-content">
+            <h4>Payments</h4>
+            <p>Connect a payment provider and start accepting real money on day four.</p>
+          </div>
+        </div>
+        <div class="timeline-item observe-fade" role="listitem">
+          <div class="timeline-dot" aria-hidden="true">D5</div>
+          <div class="timeline-content">
+            <h4>Course System</h4>
+            <p>Build out the core course delivery — lessons, progress, and content access.</p>
+          </div>
+        </div>
+        <div class="timeline-item observe-fade" role="listitem">
+          <div class="timeline-dot" aria-hidden="true">D6</div>
+          <div class="timeline-content">
+            <h4>Dashboard</h4>
+            <p>Student dashboard and basic admin view — everything you need, nothing you don't.</p>
+          </div>
+        </div>
+        <div class="timeline-item observe-fade" role="listitem">
+          <div class="timeline-dot" aria-hidden="true">D7</div>
+          <div class="timeline-content">
+            <h4>Launch</h4>
+            <p>Final checks, go-live checklist, and your first real users — day seven.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── BONUS ─── -->
+  <section id="bonus" aria-labelledby="bonus-heading">
+    <div class="container">
+      <div class="section-header observe-fade">
+        <div class="tag">Free Bonuses</div>
+        <h2 id="bonus-heading">You'll Also Get</h2>
+        <p>Extra resources packed in — at no cost.</p>
+      </div>
+
+      <div class="bonus-grid">
+        <div class="bonus-card observe-fade">
+          <div class="bonus-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          </div>
+          <h4>SaaS Launch Checklist</h4>
+          <p>A ready-to-use checklist so nothing slips through the cracks before launch day.</p>
+        </div>
+        <div class="bonus-card observe-fade">
+          <div class="bonus-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </div>
+          <h4>Common Mistakes to Avoid</h4>
+          <p>Learn the pitfalls that kill 90% of course platform projects — before you hit them.</p>
+        </div>
+        <div class="bonus-card observe-fade">
+          <div class="bonus-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h4>Practical Time-Saving Tips</h4>
+          <p>Shortcuts and decisions that shave hours off your build without cutting corners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WHO IT'S FOR ─── -->
+  <section id="who" aria-labelledby="who-heading">
+    <div class="container">
+      <div class="section-header observe-fade">
+        <div class="tag">Is This for You?</div>
+        <h2 id="who-heading">Made for Builders, Not Browsers</h2>
+        <p>This guide is built for people who are ready to act.</p>
+      </div>
+
+      <div class="for-grid">
+        <div class="for-card is-for observe-fade">
+          <div class="for-card-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            This IS for you if…
+          </div>
+          <ul class="for-list" role="list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              You're a developer building a side project
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              You're a creator who wants to sell courses
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              You're an indie hacker who launches fast
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              You're a freelancer building your own product
+            </li>
+          </ul>
+        </div>
+
+        <div class="for-card not-for observe-fade">
+          <div class="for-card-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            This is NOT for you if…
+          </div>
+          <ul class="for-list" role="list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              You're looking for theory only
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              You're not ready to build right now
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              You expect a done-for-you system
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FINAL CTA ─── -->
+  <section class="final-cta" id="final-cta" aria-labelledby="final-heading">
+    <div class="blob-cta" aria-hidden="true"></div>
+    <div class="container final-cta-inner">
+      <div class="observe-fade">
+        <div class="tag">Start Building Today</div>
+        <h2 id="final-heading">Get the Free Guide and<br />Start Building Today</h2>
+        <p>Takes less than 10 seconds to get started.</p>
+      </div>
+
+      <form class="final-form observe-fade" id="final-form" novalidate aria-label="Download the free guide">
+        <label for="final-email" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Your email address</label>
+        <input
+          type="email"
+          id="final-email"
+          name="email"
+          placeholder="Enter your email"
+          autocomplete="email"
+          required
+          aria-required="true"
+        />
+        <button type="submit" class="btn-primary" id="final-btn">
+          Download the Free Guide
+        </button>
+      </form>
+      <div class="final-success" id="final-success" role="alert" aria-live="polite">
+        <strong>You're in!</strong> Check your inbox — the guide is on its way.
+      </div>
+      <p class="final-note observe-fade">No spam. Unsubscribe anytime. Built for real builders.</p>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-trust" role="list">
+        <div class="trust-item" role="listitem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          No spam, ever
+        </div>
+        <div class="trust-item" role="listitem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          Unsubscribe anytime
+        </div>
+        <div class="trust-item" role="listitem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          Built for real builders
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 CourseGuide. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
